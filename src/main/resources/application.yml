@@ -1,0 +1,21 @@
+server:
+    port: 8081
+
+# 单点信息配置，全部可无
+kisso:
+  config:
+    signkey: sdhsklancala   # 对称签名密钥
+    cookieName: kisso             # COOKIE 名称
+
+spring:
+  redis:
+    port: 6379
+    host: 192.168.0.200
+    database: 0
+    pool:
+      max-active: 8
+      max-wait: 1
+      max-idle: 8
+      min-idle: 0
+
+
